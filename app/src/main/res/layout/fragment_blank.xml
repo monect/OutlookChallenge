@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.monect.outlookchallenge.BlankFragment">
+
+    <TextView
+        android:id="@+id/all_apps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="My other apps on Google Play"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Please visit www.monect.com for more information."
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+        android:textColor="#0000ff"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/pc_remote"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/monectportable" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Make the best use of sensors on smart device to control PC, simulate steering wheel, game-pad, touch-pad, Remote Desktop, file sharing, control PPT and more.
+                \n• Devices simulation - Turn your device into a keyboard, touchpad, gamepad and more.
+
+\n• Game play - Play all kinds of PC games with specified button layouts (race,fly,GTA...).
+
+\n• Customization - Build and share your own defined layout.
+
+\n• Multimedia controller - Adjust computer volume, play pause video. Pan tilt zoom UAC cameras.
+
+\n• Remote desktop - Touch windows on your phone.
+
+\n• PPT sync - You can see the ppt pictures and notes directly on your phone even play select &amp; mark.
+
+\n• Projector - Project phone’s screen, pictures, videos onto PC monitor.
+
+\n• File access - Explore download and edit files between phone and PC.
+
+\n• And many more..." />
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/car_camcorder"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/car_camcorder" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monect Car Camcorder has a very cool UI and the features below:
+
+\nNormal features:
+\n1. Support 3 video record format (1080p, 720p, 480p)
+\n2. Recycle record by setup the max storage usage
+\n3. Support setup record clip length(3 min ~ 10 min)
+
+\nSpecial features:
+\n1. Record location, speed, altitude… along with the video
+\n2. Smart video clip sorting function will put the clip into trip automatically
+\n3. Powerful record playback function, show the location while you watch the video at the same time" />
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

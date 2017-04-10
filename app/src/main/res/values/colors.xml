@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1174c3</color>
+    <color name="colorPrimaryDark">#0d65ab</color>
+    <color name="colorAccent">#0067BF</color>
+    <color name="textColorPrimary">#8e8e93</color>
+    <color name="dividerColor">#e1e1e1</color>
+    <color name="colorCalendarBackgroundOdd">#FFFFFF</color>
+    <color name="colorCalendarBackgroundEven">#F7F7F7</color>
+</resources>
